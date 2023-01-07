@@ -99,3 +99,33 @@ section{
     color: #737272;
 }
 /* my plan section ended */
+/* call now section style started */
+.call-now-title{
+    padding-top: 60px;
+    margin-left: 64px;
+    margin-right: 617px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    width: 460px;
+    color: #FFFFFF;
+}
+.call-now-section{
+    background-image: url(images/gradient1.png) ,url(images/watch.png);
+    background-position: center;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.btn-secondary{
+    border: none;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 64px;
+    margin-bottom: 167px;
+}
+/* call now section style ended */
