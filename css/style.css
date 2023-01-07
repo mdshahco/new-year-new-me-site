@@ -7,15 +7,10 @@
     width: 100%;
 }
 
-main{
-    max-width: 1072px;
-    
-}
 section{
-    width: 1072px;
     margin: 130px 230px 0px 230px;
 }
-/* header section styles */
+/* header section styles started*/
 .header{
     background-image: url(images/banner/banner3.png);
     background-position: center;
@@ -56,10 +51,11 @@ section{
     font-weight: 600;
     font-size: 20px;
 }
-/* failures-of-previous-year started */
+/* header section styles ended*/
+/* failures of previous year style started */
 .failures-of-previous-year{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 .section-texts{
@@ -89,16 +85,11 @@ section{
 .section-description i{
     color: #16D887;
 }
-/* failures-of-previous-year ended */
+/* failures of previous year ended */
 /* my achivement style started */
 .my-achievement{
     text-align: center;
 }
-/* .my-achievement-contain{
-    display: flex;
-    justify-content: space-between;
-    
-} */
 .achievment-left{
     display: flex;
     justify-content: space-between;
@@ -137,7 +128,7 @@ section{
     padding: 25px;
     margin: 10px;
 }
-
+/* my achivement style ended */
 /* my plan section style started */
 .my-plan-container{
     display: flex;
@@ -161,7 +152,7 @@ section{
     font-size: 25px;
     color: #737272;
 }
-/* my plan section ended */
+/* my plan section style ended */
 /* call now section style started */
 .call-now-title{
     padding-top: 60px;
@@ -178,7 +169,9 @@ section{
     background-position: center;
     height: 300px;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 130px;
 }
 .btn-secondary{
     border: none;
@@ -192,7 +185,7 @@ section{
     margin-bottom: 167px;
 }
 /* call now section style ended */
-/* footer started */
+/* footer style started */
 footer{
     background-color: #151414;
     height: 577px;
@@ -251,5 +244,5 @@ footer{
     font-weight: 600;
     font-size: 20px;
 }
-/* footer section ended */
+/* footer style ended */
 
