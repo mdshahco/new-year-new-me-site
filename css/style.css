@@ -88,6 +88,54 @@ section{
     color: #16D887;
 }
 /* failures-of-previous-year ended */
+/* my achivement style started */
+.my-achievement{
+    text-align: center;
+}
+/* .my-achievement-contain{
+    display: flex;
+    justify-content: space-between;
+    
+} */
+.achievment-left{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.achievment-right{
+    display: flex;
+    justify-content: space-between;
+}
+.my-achievement h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.my-achievement h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 16px;
+
+}
+.my-achievement img{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+}
+.my-achievement p{
+    margin-bottom: 0px;
+}
+.text-box-two{
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 25px;
+    margin: 10px;
+}
+
 /* my plan section style started */
 .my-plan-container{
     display: flex;
