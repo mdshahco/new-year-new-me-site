@@ -20,7 +20,7 @@ section{
     background-image: url(images/banner/banner3.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
     margin: 0px;
     height: 808px;
     width: 100%;
@@ -29,8 +29,10 @@ section{
 }
 
 .text-box{
+    text-align: right;
     margin-left: 845px;
     padding-top: 216px;
+    margin-right: 230px;
 
 }
 .text-box h2{
