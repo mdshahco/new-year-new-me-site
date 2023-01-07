@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main{
+    max-width: 1072px;
+    
+}
+section{
+    margin: 130px 230px;
+}
+/* header section styles */
+.header{
+    background-image: url(images/banner/banner3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+}
+.bannar{
+    text-align: left;
+    margin-left:230px ;
+    margin-right: 230px;
+    margin-top: 216px;
+}
+.bannar-title{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 65px;
+    margin: 216px 230px 24px 845px;
+}
+.bannar-description{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 845px;
+    margin-bottom: 32px;
+}
+.btn-primary{
+    border: none;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 845px;
+}
+/* failures-of-previous-year started */
+.failures-of-previous-year{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-texts{
+    width: 416px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-left: 87px;
+}
+.section-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-left: 87px;
+}
+/* failures-of-previous-year ended */
