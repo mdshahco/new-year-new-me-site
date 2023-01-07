@@ -1,6 +1,10 @@
 *{
     margin: 0px;
+    padding: 0px;
     font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 100%;
 }
 
 main{
@@ -12,7 +16,7 @@ section{
     margin: 130px 230px 0px 230px;
 }
 /* header section styles */
-header{
+.header{
     background-image: url(images/banner/banner3.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -23,25 +27,22 @@ header{
     margin-left: 0px;
     margin-right: 0px;
 }
-.bannar{
 
-    text-align: left;
-    margin-left:230px ;
-    margin-right: 230px;
-    /* margin-top: 216px; */
+.text-box{
+    margin-left: 845px;
     padding-top: 216px;
+
 }
-.bannar-title{
+.text-box h2{
     color: #ffffff;
     font-weight: 700;
     font-size: 65px;
-    margin: 0px 230px 24px 845px
 }
-.bannar-description{
+.text-box p{
     color: #ffffff;
     font-weight: 400;
     font-size: 16px;
-    margin-left: 845px;
+    margin-top: 24px;
     margin-bottom: 32px;
 }
 .btn-primary{
@@ -52,8 +53,6 @@ header{
     color: #005FAC;
     font-weight: 600;
     font-size: 20px;
-    margin-left: 845px;
-    margin-bottom: 167px;
 }
 /* failures-of-previous-year started */
 .failures-of-previous-year{
@@ -68,13 +67,25 @@ header{
     font-weight: 700;
     font-size: 40px;
     color: #151414;
-    margin-left: 87px;
+    margin-left: 50px;
+}
+.section-description-pera{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
 }
 .section-description{
     font-weight: 400;
     font-size: 16px;
     color: #444343;
-    margin-left: 87px;
+    margin-left: 50px;
+    margin-bottom: 8px;
+}
+.section-description i{
+    color: #16D887;
 }
 /* failures-of-previous-year ended */
 /* my plan section style started */
