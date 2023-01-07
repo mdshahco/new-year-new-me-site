@@ -8,27 +8,32 @@ main{
     
 }
 section{
-    margin: 130px 230px;
+    width: 1072px;
+    margin: 130px 230px 0px 230px;
 }
 /* header section styles */
 .header{
     background-image: url(images/banner/banner3.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin: 0px;
+    height: 808px;
+    width: 100%;
 }
 .bannar{
+
     text-align: left;
     margin-left:230px ;
     margin-right: 230px;
-    margin-top: 216px;
+    /* margin-top: 216px; */
+    padding-top: 216px;
 }
 .bannar-title{
     color: #ffffff;
     font-weight: 700;
     font-size: 65px;
-    margin: 216px 230px 24px 845px;
+    margin: 0px 230px 24px 845px
 }
 .bannar-description{
     color: #ffffff;
@@ -46,6 +51,7 @@ section{
     font-weight: 600;
     font-size: 20px;
     margin-left: 845px;
+    margin-bottom: 167px;
 }
 /* failures-of-previous-year started */
 .failures-of-previous-year{
@@ -69,3 +75,27 @@ section{
     margin-left: 87px;
 }
 /* failures-of-previous-year ended */
+/* my plan section style started */
+.my-plan-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.my-plan-section-title{
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.my-plan-sub-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.my-plan-sub-title-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* my plan section ended */
